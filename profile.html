@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile | VolunteerConnect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>My Profile</h1>
+        <form id="profile-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="skills">Skills (comma-separated):</label>
+            <input type="text" id="skills" required>
+
+            <label for="availability">Availability:</label>
+            <select id="availability">
+                <option value="Weekdays">Weekdays</option>
+                <option value="Weekends">Weekends</option>
+                <option value="Anytime">Anytime</option>
+            </select>
+
+            <button type="submit">Save Profile</button>
+        </form>
+
+        <h2>Your Details</h2>
+        <p><strong>Name:</strong> <span id="display-name"></span></p>
+        <p><strong>Skills:</strong> <span id="display-skills"></span></p>
+        <p><strong>Availability:</strong> <span id="display-availability"></span></p>
+
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
