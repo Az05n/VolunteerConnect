@@ -163,4 +163,3 @@ nextBtn?.addEventListener('click', () => { if (currentIndex < carousel.children.
 
 
 
-

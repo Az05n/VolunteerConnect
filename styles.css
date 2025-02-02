@@ -282,3 +282,36 @@ h1 {
 .close-btn:hover {
     background-color: #d32f2f;
 }
+
+#leaderboard-list, #volunteer-calls-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#leaderboard-list li, #volunteer-calls-list li {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.badge {
+    display: inline-block;
+    background: gold;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5500ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
